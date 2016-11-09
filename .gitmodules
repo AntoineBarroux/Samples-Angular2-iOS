@@ -10,3 +10,7 @@
 	path = www/common
 	url = https://github.com/AntoineBarroux/Samples-Angular2-Web.git
 	branch = web
+[submodule "FontAwesome"]
+	path = FontAwesome
+	url = https://github.com/Cobaltians-Fonts/Fonts-FontAwesome-iOS.git
+	branch = develop
