@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4CFCA195EEFDE66BB7D6C814340207A04FCE4660",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4CFCA195EEFDE66BB7D6C814340207A04FCE4660" : 9223372036854775807,
+    "101315F4C6008F32816F69B09871CA89956743E0" : 9223372036854775807,
+    "7453ABE70C99836A01F5BB164363F4C90D3354C5" : 9223372036854775807,
+    "B16A14BEA9720E1DC1A48A55D7E8F058C6D566FC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F61C65B5-55E9-4B17-834F-266D73818641",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4CFCA195EEFDE66BB7D6C814340207A04FCE4660" : "Samples-Angular2-iOS\/",
+    "101315F4C6008F32816F69B09871CA89956743E0" : "Samples-Angular2-iOS\/Cobalt\/",
+    "7453ABE70C99836A01F5BB164363F4C90D3354C5" : "Samples-Angular2-iOS\/www\/platform\/",
+    "B16A14BEA9720E1DC1A48A55D7E8F058C6D566FC" : "Samples-Angular2-iOS\/www\/common\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SampleAngular",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SampleAngular.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cobaltians\/Cobalt-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "101315F4C6008F32816F69B09871CA89956743E0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AntoineBarroux\/Samples-Angular2-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4CFCA195EEFDE66BB7D6C814340207A04FCE4660"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cobaltians\/Cobalt-Web-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7453ABE70C99836A01F5BB164363F4C90D3354C5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AntoineBarroux\/Samples-Angular2-Web.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B16A14BEA9720E1DC1A48A55D7E8F058C6D566FC"
+    }
+  ]
+}
