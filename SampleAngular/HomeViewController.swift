@@ -17,7 +17,7 @@ class HomeViewController: CobaltViewController, CobaltDelegate {
         super.init(coder: coder)
         NSLog("passage dans init")
         self.setDelegate(self)
-        Cobalt.setResourcePath(Bundle.main.resourcePath! + "/Samples-Angular2-Web/")
+        Cobalt.setResourcePath(Bundle.main.resourcePath! + "/common/")
         initWithPage("index.html", andController: "default")
     }
     
