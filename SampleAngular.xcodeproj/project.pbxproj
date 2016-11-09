@@ -15,7 +15,9 @@
 		7165E3601DD21B4E00CB58AB /* libCobalt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7165E35B1DD21B3F00CB58AB /* libCobalt.a */; };
 		7165E3611DD21B5500CB58AB /* Cobalt.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7165E35D1DD21B3F00CB58AB /* Cobalt.bundle */; };
 		7165E3631DD21CA000CB58AB /* platform in Resources */ = {isa = PBXBuildFile; fileRef = 7165E3621DD21CA000CB58AB /* platform */; };
-		71897FEF1DD34A35005534D5 /* common in Resources */ = {isa = PBXBuildFile; fileRef = 71897FEE1DD34A35005534D5 /* common */; };
+		71A3D2981DD35BBC00042B7E /* NativebarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A3D2971DD35BBC00042B7E /* NativebarController.swift */; };
+		71A3D29F1DD3689100042B7E /* Design in Resources */ = {isa = PBXBuildFile; fileRef = 71A3D29E1DD3689100042B7E /* Design */; };
+		71A3D2A11DD3789E00042B7E /* common in Resources */ = {isa = PBXBuildFile; fileRef = 71A3D2A01DD3789E00042B7E /* common */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +54,9 @@
 		7165E34E1DD21AD500CB58AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7165E3541DD21B3E00CB58AB /* Cobalt.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cobalt.xcodeproj; path = Cobalt/Cobalt.xcodeproj; sourceTree = "<group>"; };
 		7165E3621DD21CA000CB58AB /* platform */ = {isa = PBXFileReference; lastKnownFileType = folder; name = platform; path = www/platform; sourceTree = "<group>"; };
-		71897FEE1DD34A35005534D5 /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; name = common; path = www/common; sourceTree = "<group>"; };
+		71A3D2971DD35BBC00042B7E /* NativebarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativebarController.swift; sourceTree = "<group>"; };
+		71A3D29E1DD3689100042B7E /* Design */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Design; sourceTree = "<group>"; };
+		71A3D2A01DD3789E00042B7E /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; name = common; path = www/common; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +74,8 @@
 		7165E3361DD21AD500CB58AB = {
 			isa = PBXGroup;
 			children = (
-				71897FEE1DD34A35005534D5 /* common */,
+				71A3D2A01DD3789E00042B7E /* common */,
+				71A3D29E1DD3689100042B7E /* Design */,
 				7165E3621DD21CA000CB58AB /* platform */,
 				7165E3411DD21AD500CB58AB /* SampleAngular */,
 				7165E3401DD21AD500CB58AB /* Products */,
@@ -91,6 +96,7 @@
 			children = (
 				7165E3421DD21AD500CB58AB /* AppDelegate.swift */,
 				7165E3441DD21AD500CB58AB /* HomeViewController.swift */,
+				71A3D2971DD35BBC00042B7E /* NativebarController.swift */,
 				7165E3461DD21AD500CB58AB /* Main.storyboard */,
 				7165E3491DD21AD500CB58AB /* Assets.xcassets */,
 				7165E34B1DD21AD500CB58AB /* LaunchScreen.storyboard */,
@@ -192,8 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A3D2A11DD3789E00042B7E /* common in Resources */,
+				71A3D29F1DD3689100042B7E /* Design in Resources */,
 				7165E34D1DD21AD500CB58AB /* LaunchScreen.storyboard in Resources */,
-				71897FEF1DD34A35005534D5 /* common in Resources */,
 				7165E34A1DD21AD500CB58AB /* Assets.xcassets in Resources */,
 				7165E3631DD21CA000CB58AB /* platform in Resources */,
 				7165E3481DD21AD500CB58AB /* Main.storyboard in Resources */,
@@ -210,6 +217,7 @@
 			files = (
 				7165E3451DD21AD500CB58AB /* HomeViewController.swift in Sources */,
 				7165E3431DD21AD500CB58AB /* AppDelegate.swift in Sources */,
+				71A3D2981DD35BBC00042B7E /* NativebarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
